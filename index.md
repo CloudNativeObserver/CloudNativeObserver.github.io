@@ -1,37 +1,9 @@
-# 
 
-## 欢迎观临云原生观察者
 
-在这里，让我们一起探索和分享有关云原生和数字化时代的软件架构与设计理念和技术路线吧！
+# 欢迎观临云原生观察者
 
-### 云原生会引起哪些个革命性的变化？
+在云原生时代来了，它首先是技术路线的巨大变化，同时，也带来了软件架构与设计理念的巨大变化。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+就技术路线而言，程序员首先关注的是编程语言。如果说J2EE时代奠定了运行在JVM虚拟机上的Java语言的王者地位。
 
-```markdown
-huSyntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CloudNatvieObserver/CloudNativeObserver.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+不可变基础设施中“不变”指的是相对不变。也就是被部署应用软件与其依赖的底层软硬件基础设施之间相对不变。其实现方法是把应用软件与其所依赖的基础软件环境一同打包在容器映像中整体发布。这样，应用软件永远运行在“预期不变”的环境之中，所不会发生运行环境的不兼容等各种问题。该理念对传统Java虚拟机隔离基础设施变化的优势产生了冲击。**
